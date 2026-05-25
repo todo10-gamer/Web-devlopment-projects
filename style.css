@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6c63ff;
+}
+
+/* Nav Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #6c63ff;
+}
+
+/* Fix main spacing */
+.main {
+    margin-top: 60px;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main wrapper */
+.main {
+    text-align: center;
+    margin-bottom: 400px;
+    
+}
+
+/* Title */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h1 span {
+    color: #6c63ff;
+}
+
+/* Subtitle */
+.subtitle {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Card container */
+.container {
+    margin-top: 25px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 500px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.about{
+    margin-top: 25px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 750px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6c63ff;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #6c63ff, #00c6ff);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Summary Box */
+#summaryBox {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#summary {
+    font-size: 14px;
+    color: #444;
+    }
+    
+ul{
+    list-style: none;
+}
